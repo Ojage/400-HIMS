@@ -114,6 +114,7 @@ body {
 	line-height: 1.5;
 	font-weight: 300;
 	color: #5e5e63;
+	font-family: "Montserrat", "Open Sans";
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -135,7 +136,8 @@ body {
 h1, h2, h3, h4, h5, h6, [class*='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: "Zilla Slab", "Times New Roman", Times, serif;
+
+	font-family: "Montserrat", "Zilla Slab", "Times New Roman", Times, serif;
 	font-weight: 300;
 	color: #29293a;
 }
@@ -8822,7 +8824,7 @@ html.tablet .ui-to-top {
 		margin-left: 6px;
 	}
 	.rd-navbar-static .rd-nav-link {
-		font-size: 18px;
+		font-size: 14px;
 	}
 }
 

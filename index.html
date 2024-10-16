@@ -53,30 +53,34 @@
     <!-- Page Header-->
     <header class="page-header">
       <!-- RD Navbar-->
-      <div class="rd-navbar-wrap" style=" width: max-content">
+      <div class="rd-navbar-wrap" style="width: max-content;">
         <nav style="width: 100vw; font-size: 12px;" class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed"
           data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
           data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
           data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px"
           data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+
           <div class="rd-navbar-main-outer">
             <div class="rd-navbar-main">
               <!-- RD Navbar Panel-->
               <div class="rd-navbar-panel">
                 <!-- RD Navbar Toggle-->
                 <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+
                 <!-- RD Navbar Brand-->
-                <div class="rd-navbar-brand" style=" margin-left: -1rem;">
+                <div class="rd-navbar-brand" style="margin-left: -1rem;">
                   <a class="brand" href="index.html">
-                    <img class="brand-logo-dark" src="images/HIMSHUB-LOGO-DEFAULT.png" alt="" width="245" height="90" />
-                    <img class="brand-logo-light" src="images/HIMSHUB-logo-inverse-245x50.png" alt="" width="245"
+                    <img class="brand-logo-dark" src="images/HIMSHUB-LOGO-DEFAULT.png" alt="HIMSHub" width="245"
+                      height="90" />
+                    <img class="brand-logo-light" src="images/HIMSHUB-logo-inverse-245x50.png" alt="HIMSHub" width="245"
                       height="50" />
                   </a>
                 </div>
               </div>
-              <div class="rd-navbar-nav-wrap">
+
+              <div class="rd-navbar-nav-wrap" style="display: flex;">
                 <!-- RD Navbar Nav-->
-                <ul class="rd-navbar-nav" style="width: max-content; font-size: 12px;  margin-left: -5rem;">
+                <ul class="rd-navbar-nav" style="width: 100%; font-size: 12px; margin-left: -5rem;">
                   <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a></li>
 
                   <li class="rd-nav-item"><a class="rd-nav-link" href="study-materials.html">Study Materials</a>
@@ -105,30 +109,33 @@
                           Prep</a></li>
                     </ul>
                   </li>
-
-                  <!-- <li class="rd-nav-item"><a class="rd-nav-link" href="gallery.html">Gallery</a></li> -->
-
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="announcements.html">Announcements</a></li>
-
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="community.html">Community</a>
-                    <!-- Dropdown for Community -->
-                    <ul class="rd-menu rd-navbar-dropdown">
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="community/forum.html">Student
-                          Forum</a></li>
-                      <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="community/team.html">Meet the
-                          Team</a></li>
-                    </ul>
-                  </li>
-
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="about.html">About</a></li>
-
-                  <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">Contact</a></li>
                 </ul>
+
+                <div style="display: flex;  justify-content: flex-end; width: 100%;">
+                  <!-- Search Bar -->
+                  <div class="rd-navbar-search" style="margin-left: 1rem;">
+                    <input type="text" class="search-input" placeholder="Search resources..."
+                      aria-label="Search resources">
+                    <button class="search-button" aria-label="Search"><i class="mdi mdi-magnify"></i></button>
+                  </div>
+
+
+                  <!-- Give Now Button -->
+                  <div class="rd-navbar-donate" style="margin-left: 1rem;">
+                    <a class="button-71" href="donate.html"
+                      style="display: flex; align-items: center;">
+                      <i class="mdi mdi-heart" style="font-size: 1.2rem; margin-right: 5px;"></i> Give Now
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </nav>
       </div>
+
+
+
 
     </header>
     <section>
@@ -479,10 +486,9 @@
               src="images/6d5ef884-4421-4c52-88af-3a49836f981b.jpg" alt="" width="320" height="320" />
           </div>
         </a>
-        <!-- Thumbnail Thin--><a class="thumbnail-thin" href="images/IMG_6137-1-scaled.jpg"
-          data-lightgallery="item">
-          <div class="thumbnail-thin-inner"><img class="thumbnail-thin-image"
-              src="images/IMG_6137-1-scaled.jpg" alt="" width="320" height="320" />
+        <!-- Thumbnail Thin--><a class="thumbnail-thin" href="images/IMG_6137-1-scaled.jpg" data-lightgallery="item">
+          <div class="thumbnail-thin-inner"><img class="thumbnail-thin-image" src="images/IMG_6137-1-scaled.jpg" alt=""
+              width="320" height="320" />
           </div>
         </a>
         <!-- Thumbnail Thin--><a class="thumbnail-thin" href="images/ZOE-COMMUNICATIONS-651020279-31-scaled.jpg"
@@ -513,87 +519,68 @@
         <div class="container">
           <div class="row row-30">
 
-            <!-- Stats Section -->
+            <!-- HIMSHub Impact Stats Section -->
             <div class="col-lg-3">
+              <h3>Our Impact</h3>
               <div class="row row-30 row-xl-40">
                 <div class="col-6 col-md-3 col-lg-12">
                   <article class="counter-minimal">
                     <div class="counter-minimal-counter">
-                      <div class="counter">100</div><span class="counter-postfix">+</span>
+                      <div class="counter">150</div><span class="counter-postfix">+</span>
                     </div>
-                    <p class="counter-minimal-title">Available Courses</p>
+                    <p class="counter-minimal-title">Educational Resources</p>
                   </article>
                 </div>
                 <div class="col-6 col-md-3 col-lg-12">
                   <article class="counter-minimal">
                     <div class="counter-minimal-counter">
-                      <div class="counter">50</div><span class="counter-postfix">+</span>
+                      <div class="counter">60</div><span class="counter-postfix">+</span>
                     </div>
-                    <p class="counter-minimal-title">Active Tutors</p>
+                    <p class="counter-minimal-title">Expert Contributors</p>
                   </article>
                 </div>
                 <div class="col-6 col-md-3 col-lg-12">
                   <article class="counter-minimal">
-                    <div class="counter-minimal-counter counter">1,200</div>
-                    <p class="counter-minimal-title">Enrolled Students</p>
+                    <div class="counter-minimal-counter counter">5,000</div>
+                    <p class="counter-minimal-title">Active Community Members</p>
                   </article>
                 </div>
                 <div class="col-6 col-md-3 col-lg-12">
                   <article class="counter-minimal">
-                    <div class="counter-minimal-counter counter">5</div>
-                    <p class="counter-minimal-title">Departments</p>
+                    <div class="counter-minimal-counter counter">10</div>
+                    <p class="counter-minimal-title">Academic Departments Supported</p>
                   </article>
                 </div>
               </div>
             </div>
 
-            <!-- Social Media Feed -->
+            <!-- Mission & Vision -->
             <div class="col-sm-6 col-lg-4 col-xl-5">
-              <h3>Social Media Feed</h3>
-              <!-- Placeholder for Social Media Feed-->
-              <div class="social-media-feed">
-                <article class="tweet-light">
-                  <div class="icon tweet-light-icon fa-instagram"></div>
-                  <div class="tweet-light-main">
-                    <div class="tweet-light-text">Check out our latest study resources for final exams preparation!
-                    </div>
-                    <time class="tweet-light-meta">1 hour ago</time>
-                  </div>
-                </article>
-                <article class="tweet-light">
-                  <div class="icon tweet-light-icon fa-twitter"></div>
-                  <div class="tweet-light-main">
-                    <div class="tweet-light-text">We’re hosting a webinar on Data Science Basics this Friday!</div>
-                    <time class="tweet-light-meta">3 hours ago</time>
-                  </div>
-                </article>
-                <article class="tweet-light">
-                  <div class="icon tweet-light-icon fa-facebook"></div>
-                  <div class="tweet-light-main">
-                    <div class="tweet-light-text">Join our HIMS student community to connect with peers and tutors!
-                    </div>
-                    <time class="tweet-light-meta">5 hours ago</time>
-                  </div>
-                </article>
-              </div>
+              <h3>Our Mission & Vision</h3>
+              <p><strong>Mission:</strong> HIMSHub is committed to equipping students with reliable, high-quality
+                academic resources and a supportive community that fosters academic excellence and personal growth.</p>
+              <p><strong>Vision:</strong> To be the leading resource platform that empowers HIMS students to achieve
+                their academic goals and prepares them for successful careers through continuous learning and
+                collaboration.</p>
             </div>
 
-            <!-- About and Newsletter -->
+            <!-- About and Newsletter Subscription -->
             <div class="col-sm-6 col-lg-5 col-xl-4">
               <div class="row row-50 row-xl-70">
 
-                <!-- About Us Section -->
+                <!-- About HIMSHub Section -->
                 <div class="col-12">
                   <h3>About HIMSHub</h3>
-                  <p>HIMSHub is your go-to academic resource platform, dedicated to enhancing the learning experience at
-                    HIMS. Access study materials, connect with the community, and excel in your academic journey.</p>
+                  <p>As a trusted academic resource center for HIMS, HIMSHub offers a platform where students can access
+                    study materials, engage with knowledgeable tutors, and participate in a vibrant academic community
+                    designed to support every step of their journey.</p>
                 </div>
 
                 <!-- Newsletter Subscription -->
                 <div class="col-12">
-                  <h3>Subscribe to Our Newsletter</h3>
-                  <p>Stay updated with our latest resources, events, and academic tips. Enter your e-mail to subscribe.
-                  </p>
+                  <h3>Subscribe for Updates</h3>
+                  <p>Stay informed on the latest resources, academic events, and study tips. Enter your email to
+                    subscribe to our weekly newsletter.</p>
                   <form class="rd-form rd-mailform form-inline subscribe-form" data-form-output="form-output-global"
                     data-form-type="subscribe" method="post" action="subscribe.php">
                     <div class="form-wrap">
@@ -622,12 +609,12 @@
               class="copyright-year"></span><span>&nbsp;</span><span>HIMSHub. All Rights
               Reserved.</span><span>&nbsp;</span><br class="d-sm-none" />
             <a href="/terms">Terms of Use</a><span> and</span><span>&nbsp;</span><a href="/privacy">Privacy Policy</a>.
-            Design by
-            HIMSHub Team
+            Design by HIMSHub Team
           </p>
         </div>
       </div>
     </footer>
+
 
   </div>
   <div class="snackbars" id="form-output-global"></div>
